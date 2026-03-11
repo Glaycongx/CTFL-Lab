@@ -2,7 +2,7 @@
 
 > Plataforma completa de estudos para a certificação **ISTQB Certified Tester Foundation Level (CTFL) v4.0** — instalável como PWA em Android e iOS.
 
-[![GitHub Pages](https://img.shields.io/badge/Live-GitHub%20Pages-6c63ff?style=flat-square)](https://seu-usuario.github.io/ctfl-lab/CTFL_4.0_Estudos.html)
+[![GitHub Pages](https://img.shields.io/badge/Live-GitHub%20Pages-6c63ff?style=flat-square)](https://glaycongx.github.io/CTFL-Lab/)
 
 ---
 
@@ -56,7 +56,7 @@ mv ~/Downloads/icon-*.png icons/
 ```bash
 # Com Python (mais simples)
 python3 -m http.server 8080
-# Acesse: http://localhost:8080/CTFL_4.0_Estudos.html
+# Acesse: http://localhost:8080/
 
 # Com Node.js
 npx serve .
@@ -79,7 +79,7 @@ git push -u origin main
 
 ```
 CTFLTrainning/
-├── CTFL_4.0_Estudos.html   # App principal (HTML + CSS + JS inline)
+├── index.html               # App principal (HTML + CSS + JS inline)
 ├── manifest.json            # Configuração PWA
 ├── sw.js                    # Service Worker (cache offline)
 ├── generate-icons.html      # Gerador de ícones PNG
