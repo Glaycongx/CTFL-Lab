@@ -4,11 +4,11 @@
 // ============================================================
 
 const CACHE_NAME = 'ctfl-v1.2';
-const OFFLINE_PAGE = './CTFL_4.0_Estudos.html';
+const OFFLINE_PAGE = './index.html';
 
 const ASSETS_TO_CACHE = [
   './',
-  './CTFL_4.0_Estudos.html',
+  './index.html',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
